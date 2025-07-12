@@ -391,6 +391,8 @@
 
   .quote {
     flex-direction: column;
-    gap: 16px;
+    gap: 8px;
+
+    padding: 8px 0;
   }
 }
