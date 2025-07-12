@@ -44,5 +44,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: clamp(32px, 12vw, 128px);
+  gap: clamp(16px, 12vw, 128px);
+}
+
+.brand-short {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .brand-full {
+    display: none;
+  }
+  .brand-short {
+    display: inline;
+  }
 }
