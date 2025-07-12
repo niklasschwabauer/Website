@@ -77,3 +77,8 @@
     padding: 0 5svw;
   }
 }
+@media (max-width: 768px) {
+  .footer__wwide {
+    display: none;
+  }
+}
