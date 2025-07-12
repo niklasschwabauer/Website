@@ -58,4 +58,7 @@
   .brand-short {
     display: inline;
   }
+  .header__submenu {
+    gap: 16px;
+  }
 }
