@@ -1,0 +1,48 @@
+/*header*/
+.header {
+  z-index: 100;
+  position: fixed;
+
+  width: 100%;
+  background-color: #EFEFEF;
+
+  user-select: none;
+
+  left: 0;
+  right: 0;
+
+  padding: 0 16px;
+}
+
+.header__nav {
+  height: 76px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__list {
+  width: 100%;
+  max-width: 1248px;
+  margin: 0 auto;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;    /*ggf. center*/
+}
+
+.header__item--brand {
+  font-weight: bold;
+  font-size: 24px;
+}
+.header__item--menu {
+  font-size: 16px;
+}
+
+.header__submenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(32px, 12vw, 128px);
+}

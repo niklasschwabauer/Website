@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+
+  font-family: "Roboto", Arial, sans-serif;
+  color: #000000;
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1920px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 3840px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+body {
+  width: 100%;
+  min-height: 100dvh;
+  background-color: #EFEFEF;
+
+  display: flex;
+  flex-direction: column;
+  gap: 112px;
+}
+@media (max-width: 1279px) {
+  body {
+    gap: 64px;
+  }
+}
+
+main {
+  left: 0;
+  right: 0;
+  top: 0;
+
+  width: 100%;
+  max-width: 1280px; /*1248 + 16 x 2*/
+  padding: 76px 16px 0 16px;  /*simple sollution*/
+  
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+
+  user-select: none;
+}
+
+[id^="chapter-"] {
+  scroll-margin-top: 76px;
+  position: relative;
+}
+
+.button {
+  padding: 12px 24px;
+  border-radius: 24px;
+}
+.button--border {
+  border: 1px solid #000000;
+}
+.button--border:hover {
+  background: #d4d4d4;
+}
+.button--border:active {
+  background: #c7c7c7;
+}
+.button--yellow {
+  background: #e7f294aa;
+}
+.button--yellow:hover {
+  background: #e7f294;
+}
+.button--red {
+  background: #F2C1BDE3;
+}
+.button--red:hover {
+  background: #eeb6b1;
+}
+.button--turquoise {
+  background: #05DBF257;
+}
+.button--turquoise:hover {
+  background: #05daf29f;
+}
+.button--green {
+  background: #3FBF8369;
+}
+.button--green:hover {
+  background: #3fbf83bd;
+}
+.button--blue {
+  background: #0E89975F;
+}
+.button--blue:hover {
+  background: #0e899781;
+}
+.button--orange {
+  background: #F2AF5C64;
+}
+.button--orange:hover {
+  background: #f2ae5cb2;
+}
+.button--purple {
+  background: #AF52DE64;
+}
+.button--purple:hover {
+  background: #af52de9f;
+}

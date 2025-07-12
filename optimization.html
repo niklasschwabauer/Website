@@ -1,0 +1,205 @@
+<!Doctype html>
+<html lang="de">
+  <head>
+    <!--character encoding, viewport & title-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schwabauer &ndash; Optimierungen</title>
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Caveat:wght@400..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+
+    <!--css-->
+    
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/content.css">
+
+    <link rel="stylesheet" href="css/general.css">
+
+    <!--JavaScript-->
+    <script src="js/scrollfix.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item header__item--brand">
+            <h5><a href="home.html">Niklas Schwabauer</a></h5>
+          </li>
+          <li class="header__item header__item--menu">
+            <ul class="header__submenu">
+              <li class="header__submenu-item"><a href="personal.html">Profil</a></li>
+              <li class="header__submenu-item"><a href="projects.html">Projekte</a></li>
+              <li class="header__submenu-item"><a href="contact.html">Kontakt</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="personal" class="main" role="main">
+      <section class="hero">
+        <div class="hero__content">
+          <div class="hero__headline"><p>Optimierungen</p></div>
+          <div class="hero__text">
+            <div class="hero__text-line">
+              <p>Perfektion ist nicht dann erreicht,</p>
+            </div>
+            <div class="hero__text-line">
+              <p>wenn man nichts mehr hinzufügen kann,</p>
+            </div>
+            <div class="hero__text-line">
+              <p>sondern wenn man nichts mehr weglassen kann.</p>
+            </div>
+            <div class="hero__text-line hero__text-line--italic">
+              <p>&ndash; Antoine de Saint-Exupéry</p>
+            </div>
+          </div>
+          <div class="hero__table">
+            <div class="hero__table-headline"><p>Inhaltsverzeichnis</p></div>
+            <ul class="hero__table-content">
+              <li class="hero__table-item">
+                <span class="hero__table-number">1.</span>
+                <a href="optimization.html#chapter-1" class="hero__table-link">Das Problem im Detail</a>
+              </li>
+              <li class="hero__table-item">
+                <span class="hero__table-number">2.</span>
+                <a href="optimization.html#chapter-2" class="hero__table-link">Analyse & Lösungsansatz</a>
+              </li>
+              <li class="hero__table-item">
+                <span class="hero__table-number">3.</span>
+                <a href="optimization.html#chapter-3" class="hero__table-link">Materialwahl & Konstruktion</a>
+              </li>
+              <li class="hero__table-item">
+                <span class="hero__table-number">4.</span>
+                <a href="optimization.html#chapter-4" class="hero__table-link">Ergebnis & Bewertung</a>
+              </li>
+              <li class="hero__table-item">
+                <span class="hero__table-number">5.</span>
+                <a href="optimization.html#chapter-5" class="hero__table-link">Downloads</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="hero__image">
+          <img src="img/optimization_hero.png" alt="optimization" class="hero__optimization-hero">
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-1">
+        <div class="chapter__headline"><p>1. Das Problem im Detail</p></div>
+        <div class="chapter__subhead">
+          <p>Bei einem Audi A3 des Baujahres 2008 kam es nach längerer Nutzung zu einem auffälligen Geräusch im Bereich des Türschlosses. 
+            Beim Öffnen und Schließen der Tür trat ein deutlich hörbares Knattern auf &ndash; nicht dramatisch, aber störend, und auf Dauer materialschädlich. 
+            Die Ursache lag in einem intern verbauten Zahnrad, das unzureichend geführt war. Mit der Zeit entstand an einer Stelle Abrieb, wodurch das Zahnrad zunehmend Spiel bekam. 
+            Es verlagerte sich unter Last geringfügig &ndash; gerade genug, um bei jedem Betätigungsvorgang Reibung zu erzeugen. Das Geräusch war das akustische Resultat einer konstruktiven Schwäche. 
+            Und es war ein Vorbote: Länger ignoriert, hätte sich das Bauteil langsam selbst zerstört.</p>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-2">
+        <div class="chapter__headline"><p>2. Analyse & Lösungsansatz</p></div>
+        <div class="chapter__subhead">
+          <p>Statt das komplette Schloss zu ersetzen &ndash; mit entsprechendem Kosten- und Zeitaufwand &ndash;, bestand die Idee darin, gezielt das Spiel des Zahnrads zu eliminieren. 
+            Die Lösung: ein maßgeschneidertes Bauteil, das genau dort ansetzt, wo das Problem entsteht. 
+            Die Herausforderung bestand dabei nicht nur in der Konstruktion selbst, sondern vor allem im vorhandenen Bauraum. 
+            Das zusätzliche Element musste in ein bestehendes Gehäuse integriert werden &ndash; millimetergenau, ohne weitere Modifikationen am Originalteil.</p>
+          <p>Durch den 3D-Druck eines kleinen Stabilisators konnte die Verbindung der beiden Zahnräder exakt geführt werden. 
+            Das gedruckte Teil wird an definierter Stelle eingesetzt und fixiert die Achse, ohne sie zu blockieren. Es greift decken- und bodenseitig im Gehäuse ein &ndash; dort, 
+            wo gerade noch genug Platz vorhanden ist, um das Bauteil zuverlässig zu verankern. 
+            Eine klassische Optimierung an der Schnittstelle von Funktion und Mechanik.</p>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-3">
+        <div class="chapter__headline"><p>3. Materialwahl & Konstruktion</p></div>
+        <div class="chapter__subhead">
+          <p>Zum Einsatz kam PETG &ndash; nicht zufällig, sondern bewusst gewählt. Anders als PLA ist PETG temperaturstabiler, formfester und zäher. 
+            Gerade im automobilen Umfeld, wo Temperaturschwankungen, mechanische Beanspruchung und potenzielle Feuchtigkeit eine Rolle spielen, ist das entscheidend. 
+            PLA hätte unter Belastung möglicherweise nachgegeben &ndash; PETG hingegen hält dauerhaft stand.</p>
+          <p>Konstruiert wurde das Bauteil in Fusion 360 &ndash; mit maximaler Passgenauigkeit und pragmatischer Geometrie. Die Führung erfolgt formschlüssig, ohne Spiel, aber auch ohne Spannung. 
+            Das Teil verriegelt sich durch seine Lage &ndash; es muss weder geklebt noch verschraubt werden. Einfache Montage, maximale Wirkung.</p>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-4">
+        <div class="chapter__headline"><p>4. Ergebnis & Bewertung</p></div>
+        <div class="chapter__subhead">
+          <p>Das Ergebnis überzeugt in mehrfacher Hinsicht: Das Geräusch ist vollständig verschwunden, 
+            die mechanische Führung des Zahnrads ist spürbar verbessert, und der Einbau fügt sich nahtlos ins Originalsystem ein. 
+            Es fällt nicht auf, wirkt nicht improvisiert &ndash; es funktioniert einfach.</p>
+          <p>Was ursprünglich aus dem Wunsch entstand, einen Defekt kostengünstig zu beheben, wurde zu einem nahezu konstruktiven Statement: 
+            Es geht nicht nur darum, etwas zu reparieren &ndash; es geht darum, es besser zu machen als zuvor. 
+            Der Eingriff ist reversibel, unauffällig, funktional &ndash; und macht aus einem konstruktiven Schwachpunkt eine optimierte Lösung.</p>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-5">
+        <div class="chapter__headline"><p>5. Downloads</p></div>
+
+        <div class="chapter__container-downloads">
+          <div class="chapter__container-text">
+            <p>Ein kleiner Eingriff mit großer Wirkung
+              <br>
+              Das hier vorgestellte Bauteil wurde exakt auf die Anforderungen des Türschlosses im Audi A3 (2008) angepasst. 
+              Es ist so konstruiert, dass es sich ohne Werkzeug einsetzen lässt &ndash; reversibel, stabil und unauffällig. 
+              Für alle, die mit einem ähnlichen Problem konfrontiert sind, steht die STL-Datei hier zum Download bereit:
+            </p>
+          </div>
+          <div class="chapter__cta-links">
+            <a class="button button--border">Download</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__layout">
+        <div class="footer__intro">
+          <div class="footer__intro-quote">
+            <p>"Forschung betreibe ich dann, wenn ich nicht weiß, was ich tue.”</p>
+          </div>
+          <div class="footer__intro-author"><p>Wernher von Braun</p></div>
+        </div>
+        <div class="footer__name"><p>Niklas Schwabauer</p></div>
+        <div class="footer__content">
+          <div class="footer__section">
+            <div class="footer__headline"><p>Links</p></div>
+            <ul class="footer__menu">
+              <li class="footer__menu-link"><a href="home.html">Homepage</a></li>
+              <li class="footer__menu-link"><a href="projects.html">Projekte</a></li>
+              <li class="footer__menu-link"><a href="personal.html">Profil</a></li>
+              <li class="footer__menu-link"><a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer__section">
+            <div class="footer__headline"><p>Socials</p></div>
+            <ul class="footer__menu">
+              <li class="footer__menu-link"><a href="https://github.com/niklasschwabauer" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+              <li class="footer__menu-link"><a href="https://www.instagram.com/0815_niklas/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+              <li class="footer__menu-link"><a href="https://x.com/0815niklas_" target="_blank" rel="noopener noreferrer">X</a></li>
+              <li class="footer__menu-link"><a href="https://www.chess.com/member/0815Niklas" target="_blank" rel="noopener noreferrer">Chess.com</a></li>
+              <li class="footer__menu-link"><a href="https://www.youtube.com/@0815niklas" target="_blank" rel="noopener noreferrer">Youtube</a></li>
+            </ul>
+          </div>
+          <div class="footer__section">
+            <div class="footer__headline"><p>Newsletter</p></div>
+            <ul class="footer__menu">
+              <li class="footer__menu-link"><a href="#">Jetzt anmelden!</a></li>
+            </ul>
+          </div>
+          <div class="footer__section">
+            <div class="footer__headline"><p>Kontakt</p></div>
+            <ul class="footer__menu">
+              <li class="footer__menu-link"><a href="mailto:niklasschwabauer@gmail.com">Email</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

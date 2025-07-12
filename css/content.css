@@ -1,0 +1,242 @@
+.main {
+  align-items: center;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
+  width: 100%;
+
+  min-height: 620px;
+  padding: 40px 0 0 0;
+
+  font-size: 1.2em; /*24px: 20 x 1.2*/
+}
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+
+  height: 100%;
+}
+.hero__headline {
+  font-size: 2.667em;  /*64px: 20 x 1.2 x 2.667*/
+  font-weight: 700;
+}
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.hero__text-line--italic {
+  font-family: "Caveat", Arial, sans-serif;
+  font-size: 1.1667em;    /*28px: 20 x 1.2 x 1.1667*/
+}
+.hero__paragraph {
+  font-size: 0.8334em; /*20px: 20 x 1.2 x 0.8334*/
+}
+
+.hero__table {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  padding: 24px 0 0 0;
+}
+.hero__table-headline {
+  font-size: 1.333em;  /*32px: 20 x 1.2 x 1.333*/
+  font-weight: 500;
+}
+.hero__table-content {
+  font-size: 1em;  /*24px: 20 x 1.2 x 1*/
+
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.hero__table-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.hero__image {
+  padding: 2em 0 0 1em;   /*24px: 20 x 1.2 x 1 ;  48px: 20 x 1.2 x 2*/
+}
+.hero__img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  object-fit: contain;
+}
+
+.chapter {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  font-size: 1em;  /*20px: 20 x 1*/
+
+  max-width: 41em;   /*820px: 20 x 41*/
+}
+.chapter__headline {
+  font-size: 1.8em;  /*36px: 20 x 1.8*/
+  font-weight: 600;
+}
+.chapter__container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  padding: 8px 0 0 0;
+}
+.chapter__subhead p:not(:first-child),
+.chapter__container-text p:not(:first-child),
+.hero__paragraph p:not(:first-child) {
+  margin: 20px 0 0 0;
+}
+.chapter__container-headline {
+  font-size: 1.2em;  /*24px: 20 x 1.2*/
+  font-weight: 500;
+}
+
+@media (max-width: 1279px) {
+  .hero {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    align-items: center;
+    gap: 32px;
+
+    padding: 0;
+  }
+  .hero__headline,
+  .hero__text {
+    text-align: center;
+  }
+
+  .hero__image {
+    padding: 0;
+    max-width: 100%;
+  }
+  .hero__img {
+    width: 100%;
+    max-width: none;
+
+    max-height: 50svh;
+  }
+  .hero__table {
+    align-self: center;
+  }
+
+  .chapter {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.image {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 720px;
+
+  object-fit: contain;
+}
+
+.button {
+  font-size: 0.8em;  /*16px: 20 x 0.8*/
+}
+
+.chapter__subhead p,
+.chapter__container-text p,
+.hero__paragraph p {
+  text-align: justify;
+}
+
+.hero__text-line--bold {
+  font-size: 1.6em;  /*32px: 20 x 1.6*/
+  font-weight: 600;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+
+  width: 100%;
+
+  font-size: 1em; /*20px: 20 x 1*/
+}
+.grid__container {
+  border: 1px solid #000000;
+  border-radius: 32px;
+}
+.grid__container:hover {
+  background: #d4d4d4;
+}
+.grid__container:active {
+  background: #c7c7c7;
+}
+.block {
+  min-height: 416px;
+  padding: 24px 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.block__image {
+  height: 212px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.block__img {
+  height: 100%;
+  max-height: 212px;
+  width: 100%;
+  max-width: 400px;
+
+  object-fit: contain;
+}
+.block__headline {
+  font-size: 32px;  /*32px: 20 x 1.6*/
+  font-weight: 600;
+}
+.block__subhead {
+  font-weight: 500;
+}
+.block__container,
+.block__text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.block__text--bold {
+  font-size: 1.6em;  /*32px: 20 x 1.6*/
+  font-weight: 600;
+}
+.block--text-only {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chapter__cta-links {
+  margin: 12px 0 20px;
+}
