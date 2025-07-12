@@ -1,0 +1,193 @@
+<!Doctype html>
+<html lang="de">
+  <head>
+    <!--character encoding, viewport & title-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schwabauer &ndash; Website</title>
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Caveat:wght@400..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+
+    <!--css-->
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/content.css">
+
+    <link rel="stylesheet" href="css/website.css">
+
+    <!--JavaScript-->
+    <script src="js/home.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item header__item--brand">
+            <h5>
+              <a href="index.html">
+                <span class="brand-full">Niklas Schwabauer</span>
+                <span class="brand-short">Schwabauer</span>
+              </a>
+            </h5>
+          </li>
+          <li class="header__item header__item--menu">
+            <ul class="header__submenu">
+              <li class="header__submenu-item"><a href="personal.html">Profil</a></li>
+              <li class="header__submenu-item"><a href="projects.html">Projekte</a></li>
+              <li class="header__submenu-item"><a href="contact.html">Kontakt</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="personal" class="main" role="main">
+      <section class="hero">
+        <div class="hero__content">
+          <div class="hero__headline"><p>Website</p></div>
+          <div class="hero__text">
+            <div class="hero__text-line">
+              <p>If your business is not on the Internet,</p>
+            </div>
+            <div class="hero__text-line">
+              <p>then your business will be out of business.</p>
+            </div>
+            <div class="hero__text-line hero__text-line--italic">
+              <p>&ndash; Bill Gates</p>
+            </div>
+          </div>
+          <div class="hero__table">
+            <div class="hero__table-headline"><p>Inhaltsverzeichnis</p></div>
+            <ul class="hero__table-content">
+              <li class="hero__table-item">
+                <span class="hero__table-number">1.</span>
+                <a href="website.html#chapter-1" class="hero__table-link">Idee & Anspruch</a>
+              </li>
+              <li class="hero__table-item">
+                <span class="hero__table-number">2.</span>
+                <a href="website.html#chapter-2" class="hero__table-link">Technische Umsetzung</a>
+              </li>
+              <li class="hero__table-item">
+                <span class="hero__table-number">3.</span>
+                <a href="website.html#chapter-3" class="hero__table-link">Inhaltliche Herausforderungen</a>
+              </li>
+              <li class="hero__table-item">
+                <span class="hero__table-number">4.</span>
+                <a href="website.html#chapter-4" class="hero__table-link">Lernen durch Umsetzung</a>
+              </li>
+              <li class="hero__table-item">
+                <span class="hero__table-number">5.</span>
+                <a href="website.html#chapter-5" class="hero__table-link">Fazit & Ausblick</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="hero__image">
+          <img src="img/website.png" alt="website" class="hero__website">
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-1">
+        <div class="chapter__headline"><p>1. Idee & Anspruch</p></div>
+        <div class="chapter__subhead">
+          <p>Diese Website ist kein Zufallsprodukt und kein Pflichtprojekt. Sie ist der bewusste Versuch, mein Können greifbar zu machen &ndash; nicht als Lebenslauf in Tabellenform, 
+            sondern als technisch fundierte, persönlich entwickelte Plattform. Der Gedanke dahinter: Wer sich mit Software, Gestaltung und Projekten beschäftigt, sollte das auch sichtbar machen. 
+            Kein besserer Ort dafür als eine Seite, die man von Grund auf selbst entwickelt hat.</p>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-2">
+        <div class="chapter__headline"><p>2. Technische Umsetzung</p></div>
+        <div class="chapter__subhead">
+          <p>Vor dem Projekt hatte ich keine praktische Erfahrung mit Webentwicklung. Ich habe sie mir selbst erarbeitet &ndash; Schritt für Schritt, Sprache für Sprache. 
+            Vom ersten HTML-Gerüst über gezielte CSS-Anpassungen bis hin zu den ersten eigenen JavaScript-Komponenten. Gearbeitet habe ich in Visual Studio Code, gestaltet in Figma 
+            &ndash; mit dem Anspruch, nicht nur etwas Funktionierendes, sondern etwas durchdacht Navigierbares zu schaffen.</p>
+          <p>Die Website ist bewusst minimalistisch gehalten &ndash; kein visuelles Übermaß, sondern Fokus auf Inhalt, Struktur und Wiedererkennungswert. 
+            Alles, was hier zu sehen ist, basiert auf echtem Code. Keine Vorlagen. Kein Drag-and-Drop. 
+            Nur Logik, Stilgefühl &ndash; und eine Menge Konzentration.</p>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-3">
+        <div class="chapter__headline"><p>3. Inhaltliche Herausforderung</p></div>
+        <div class="chapter__subhead">
+          <p>Ich sehe mich als Entwickler. Nicht als Texter. Deshalb war mir früh klar: Wenn ich die Inhalte auf meiner Seite so formulieren möchte, 
+            dass sie nicht nur korrekt, sondern auch lesbar, professionell und verständlich sind, brauche ich Unterstützung. Und genau hier kam ChatGPT ins Spiel 
+            &ndash; als technischer Berater, als Formulierungshilfe, als verlässliche Instanz für sprachliche Präzision. Alle Texte basieren auf meinen eigenen Angaben, meinen Gedanken, meinen Projekten. 
+            Aber sie sind sprachlich optimiert &ndash; nicht um zu beeindrucken, sondern um zugänglich zu bleiben.</p>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-4">
+        <div class="chapter__headline"><p>4. Lernen durch Umsetzen</p></div>
+        <div class="chapter__subhead">
+          <p>Mit der Website wollte ich nicht nur zeigen, was ich bereits kann, sondern auch lernen, was mir bisher gefehlt hat. Das Projekt war mein Einstieg in HTML, 
+            CSS und JavaScript &ndash; und gleichzeitig der Beweis, dass man sich jedes Tool aneignen kann, wenn man weiß, wofür. 
+            Ich wollte keine Übungen machen &ndash; ich wollte ein echtes Ergebnis. Und das habe ich erreicht.</p>
+          <p>Gleichzeitig ist die Website mehr als nur Code. Sie ist ein System aus Struktur, Inhalt und Identität. 
+            Und sie ist offen für die Zukunft &ndash; neue Projekte, neue Ideen, neue Herausforderungen lassen sich jederzeit integrieren.</p>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-5">
+        <div class="chapter__headline"><p>5. Fazit & Ausblick: Mehr als eine Visitenkarte</p></div>
+        <div class="chapter__subhead">
+          <p>Diese Website ist kein fertiges Produkt, sondern ein Fundament. Sie wächst mit jedem Projekt, jeder Zeile Code, jedem neuen Gedanken. 
+            Sie zeigt, wie ich arbeite &ndash; analytisch, strukturiert, fokussiert. 
+            Und sie macht deutlich, dass ich bereit bin, Neues nicht nur zu lernen, sondern aktiv umzusetzen.</p>
+          <p>Nicht weil ich muss &ndash; sondern weil ich will.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__layout">
+        <div class="footer__intro">
+          <div class="footer__intro-quote">
+            <p>"Forschung betreibe ich dann, wenn ich nicht weiß, was ich tue.”</p>
+          </div>
+          <div class="footer__intro-author"><p>Wernher von Braun</p></div>
+        </div>
+        <div class="footer__name"><p>Niklas Schwabauer</p></div>
+        <div class="footer__content">
+          <div class="footer__section">
+            <div class="footer__headline"><p>Links</p></div>
+            <ul class="footer__menu">
+              <li class="footer__menu-link"><a href="index.html">Homepage</a></li>
+              <li class="footer__menu-link"><a href="projects.html">Projekte</a></li>
+              <li class="footer__menu-link"><a href="personal.html">Profil</a></li>
+              <li class="footer__menu-link"><a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer__section">
+            <div class="footer__headline"><p>Socials</p></div>
+            <ul class="footer__menu">
+              <li class="footer__menu-link"><a href="https://github.com/niklasschwabauer" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+              <li class="footer__menu-link"><a href="https://www.instagram.com/0815_niklas/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+              <li class="footer__menu-link"><a href="https://x.com/0815niklas_" target="_blank" rel="noopener noreferrer">X</a></li>
+              <li class="footer__menu-link"><a href="https://www.chess.com/member/0815Niklas" target="_blank" rel="noopener noreferrer">Chess.com</a></li>
+              <li class="footer__menu-link"><a href="https://www.youtube.com/@0815niklas" target="_blank" rel="noopener noreferrer">Youtube</a></li>
+            </ul>
+          </div>
+          <div class="footer__section">
+            <div class="footer__headline"><p>Newsletter</p></div>
+            <ul class="footer__menu">
+              <li class="footer__menu-link"><a href="#">Jetzt anmelden!</a></li>
+            </ul>
+          </div>
+          <div class="footer__section">
+            <div class="footer__headline"><p>Kontakt</p></div>
+            <ul class="footer__menu">
+              <li class="footer__menu-link"><a href="mailto:niklasschwabauer@gmail.com">Email</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

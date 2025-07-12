@@ -1,0 +1,336 @@
+<!Doctype html>
+<html lang="de">
+  <head>
+    <!--character encoding, viewport & title-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schwabauer</title>
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Caveat:wght@400..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+
+    <!--css-->
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/home.css">
+
+    <!--JavaScript-->
+    <script src="js/home.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item header__item--brand">
+            <h5>
+              <a href="index.html">
+                <span class="brand-full">Niklas Schwabauer</span>
+                <span class="brand-short">Schwabauer</span>
+              </a>
+            </h5>
+          </li>
+          <li class="header__item header__item--menu">
+            <ul class="header__submenu">
+              <li class="header__submenu-item"><a href="personal.html">Profil</a></li>
+              <li class="header__submenu-item"><a href="projects.html">Projekte</a></li>
+              <li class="header__submenu-item"><a href="contact.html">Kontakt</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="home" class="main" role="main">
+      <section class="hero">
+        <div class="hero__text">
+          <div class="hero__intro">
+            <div class="hero__greeting"><p>Servus!</p></div>
+            <div class="hero__subhead"><p>Mein Name ist</p></div>
+            <div class="hero__name"><p>Niklas Schwabauer.</p></div>
+            <div class="hero__textline">
+              <p>Ich bringe MINT-Kompetenz, analytisches Denken
+                 und Erfahrung mit komplexen Tools zusammen.</p>
+            </div>
+            <div class="hero__cta">
+              <a class="button button--yellow" href="personal.html#chapter-3">MINT</a>
+              <a class="button button--red" href="personal.html#chapter-2">Tools</a>
+            </div>
+          </div>
+          <div class="hero__motto">
+            <div class="hero__statement">
+              <p>Die Theorie verstehe ich. Die Anwendung baue ich.</p>
+            </div>
+            <div class="hero__slogan"><p>Können statt nur kennen!</p></div>
+            <div class="hero__textline">
+              <p>Physik, Programmierung, 3D-Modellierung &ndash; mein 
+                 Portfolio ist vielseitig, mein Ansatz lösungsorientiert.</p>
+            </div>
+            <div class="hero__cta">
+              <a class="button button--turquoise" href="personal.html#chapter-3">Entdecken</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero__image">
+          <img src="img/hero.png" alt="hiking" class="hero__img">
+        </div>
+      </section>
+
+      <section class="skills">
+        <div class="skill__item skill__item--anonymous"><p>Physik</p></div>
+        <div class="skill__item skill__item--robotomono"><p>C++</p></div>
+        <div class="skill__item skill__item--caveat"><p>Premiere</p></div>
+        <div class="skill__item"><p>Figma</p></div>
+        <div class="skill__item skill__item--crimson"><p>Arduino</p></div>
+        <div class="skill__item skill__item--cascadia"><p>&lt;html&gt;</p></div>
+        <div class="skill__item skill__item--ibm"><p>Mathematik</p></div>
+        <div class="skill__item skill__item--cascadiamono"><p>CSS</p></div>
+        <div class="skill__item skill__item--caveat"><p>Schach</p></div>
+        <div class="skill__item skill__item--inter"><p>Fusion</p></div>
+        <div class="skill__item skill__item--ibm"><p>JavaScript</p></div>
+        <div class="skill__item skill__item--serif4"><p>Chemie</p></div>
+        <div class="skill__item"><p>Office</p></div>
+      </section>
+
+      <section class="grid">
+        <div class="grid__upper">
+          <div class="grid__block grid__block--left">
+            <div class="block">
+              <div class="block__upper">
+                <div class="block__text"><p>Ich hab da mal was ausprobiert ...</p></div>
+                <div class="block__headline"><p>Racing Simulator</p></div>
+                <div class="block__question"><p>Das kann doch gar nicht so schwer sein, oder?!</p></div>
+              </div>
+              <div class="block__image">
+                <img src="img/wheel_classic.png" alt="simulator" class="block__img">
+              </div>
+              <div class="block__lower">
+                <div class="block__subhead"><p>Der große Eigenbau</p></div>
+                <div class="block__text"><p>Praxis ist der beste Einstieg &ndash; auch beim 3D-Druck.</p></div>
+                <div class="block__cta">
+                  <a class="button button--green" href="simulator.html">Entdecken</a>
+                  <a class="button button--blue" href="simulator.html#chapter-7">Download</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid__block grid__block--right">
+            <div class="block block--wide">
+              <div class="block__upper">
+                <div class="block__text">
+                  <div class="block__text--top"><p>MINT begeistert nicht?</p></div>
+                  <div class="block__text--bottom"><p>Dann bekam es von dir noch keine Chance!</p></div>
+                </div>
+                <div class="block__headline"><p>Theorie trifft Anwendung</p></div>
+                <div class="block__question"><p>Von der Schulbank zum Rechner ... und wieder zurück!</p></div>
+                <div class="block__cta">
+                  <a class="button button--red" href="personal.html#chapter-3">Interessen</a>
+                  <a class="button button--green" href="personal.html#chapter-4">Bildung</a>
+                </div>
+              </div>
+              <div class="block__image">
+                <img src="img/key.png" alt="schlüssel" class="block__img">
+              </div>
+              <div class="block__lower">
+                <div class="block__subhead"><p>Grundlegende Kompetenzen</p></div>
+                <div class="block__text"><p>Zum Glück hört das Lernen nicht nach der Schule auf!</p></div>
+                <div class="block__cta">
+                  <a class="button button--orange" href="personal.html#chapter-3">Entdecken</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid__lower">
+          <div class="grid__block grid__block--left">
+            <div class="block block--wide">
+              <div class="block__upper">
+                <div class="block__text">
+                  <div class="block__text--top"><p>Darf man Technik bewundern,</p></div>
+                  <div class="block__text--bottom"><p>wenn sie für Zerstörung gebaut wurde?</p></div>
+                </div>
+                <div class="block__headline block__headline--small"><p>Forschung mit Verantwortung.</p></div>
+                <div class="block__question">
+                  <div class="block__question--top"><p>Darf man Technik bewundern,</p></div>
+                  <div class="block__question--bottom"><p>wenn sie für Zerstörung gebaut wurde?</p></div>
+                </div>
+              </div>
+              <div class="block__image">
+                <img src="img/rocket.png" alt="simulator" class="block__img">
+              </div>
+              <div class="block__lower">
+                <div class="block__subhead"><p>Vergeltungswaffe 2</p></div>
+                <div class="block__text"><p>Massenvernichtungswaffe mit unausgeschöpftem Potenzial?</p></div>
+                <div class="block__cta">
+                  <a class="button button--red" href="rocket.html">Seminararbeit</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid__block grid__block--right">
+            <div class="block">
+              <div class="block__upper">
+                <div class="block__text">
+                  <div class="block__text--top"><p>Perfektion?</p></div>
+                  <div class="block__text--bottom"><p>Gibt&acute;s nicht! &ndash; nur bessere Lösungen!</p></div>
+                </div>
+                <div class="block__headline"><p>Optimierungen</p></div>
+                <div class="block__question"><p>Wieso funktioniert es nicht direkt ab Werk?</p></div>
+              </div>
+              <div class="block__image">
+                <img src="img/car.png" alt="schlüssel" class="block__img">
+              </div>
+              <div class="block__lower">
+                <div class="block__subhead"><p>Präzision ist kein Zufall!</p></div>
+                <div class="block__text"><p>Optimieren statt akzeptieren! Jetzt funktioniert es!</p></div>
+                <div class="block__cta">
+                  <a class="button button--purple" href="optimization.html">Entdecken</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="quote">
+        <div class="quote__quote">
+          <p>“Eine neue wissenschaftliche Wahrheit pflegt sich nicht in der Weise durchzusetzen, daß ihre Gegner
+              überzeugt werden [...], sondern vielmehr dadurch, daß ihre Gegner allmählich aussterben”
+          </p>
+        </div>
+        <div class="quote__author"><p>Max Planck</p></div>
+      </section>
+
+      <section class="blog">
+        <div class="blog__headline"><p>Gedanken, Fortschritte, Fehlversuche.</p></div>
+        <div class="blog__text">
+          <div class="blog__text--top">
+            <p>Hinter jedem Projekt steht ein technisches Konzept und eine Reihe von Entscheidungen.</p>
+          </div>
+          <div class="blog__text--bottom">
+            <p>Hier dokumentiere ich Hintergründe, Fortschritte und Entwicklungen, 
+              die über die Oberfläche hinausgehen.</p>
+          </div>
+        </div>
+        <div class="blog__grid">
+          <a class="blog__item" href="bucket.html">
+            <div class="blog-item">
+              <div class="blog-item__upper">
+                <div class="blog-item__image">
+                  <img src="img/bucket_classic.png" alt="simulator" class="blog-item__img">
+                </div>
+              </div>
+              <div class="blog-item__lower">
+                <div class="blog-item__headline"><p>Töpfe</p></div>
+                <div class="blog-item__subhead"><p>Was nicht passt, wird passend gemacht!</p></div>
+                <div class="blog-item__text">
+                  <div class="blog-item__text--upper"><p>Wer hätte schon beim kauf wissen können,</p></div>
+                  <div class="blog-item__text--lower"><p>wofür man den 3D-Drucker alles brauchen wird?</p></div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="blog__item" href="personal.html#chapter-3">
+            <div class="blog-item">
+              <div class="blog-item__upper">
+                <div class="blog-item__image">
+                  <img src="img/software.png" alt="simulator" class="blog-item__img">
+                </div>
+              </div>
+              <div class="blog-item__lower">
+                <div class="blog-item__headline"><p>Programme</p></div>
+                <div class="blog-item__subhead"><p>Was verwende ich?</p></div>
+                <div class="blog-item__text">
+                  <div class="blog-item__text--upper"><p>Weniger Show, mehr Substanz:</p></div>
+                  <div class="blog-item__text--lower"><p>Programme, die mir wirklich weiterhelfen.</p></div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="blog__item" href="blog.html">
+            <div class="blog-item">
+              <div class="blog-item__upper">
+                <div class="blog-item__image">
+                  <img src="img/chemistry.png" alt="simulator" class="blog-item__img">
+                </div>
+              </div>
+              <div class="blog-item__lower">
+                <div class="blog-item__headline"><p>Blog</p></div>
+                <div class="blog-item__subhead"><p>Aus Fehlern anderer lernen.</p></div>
+                <div class="blog-item__text">
+                  <div class="blog-item__text--upper"><p>Leider funktionieren nicht alle Projekte,</p></div>
+                  <div class="blog-item__text--lower"><p>dass ist jedoch kein Grund zum nicht berichten!</p></div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="blog__item" href="personal.html#chapter-1">
+            <div class="blog-item">
+              <div class="blog-item__upper">
+                <div class="blog-item__image">
+                  <img src="img/hiking-gran.jpg" alt="simulator" class="blog-item__img">
+                </div>
+              </div>
+              <div class="blog-item__lower">
+                <div class="blog-item__headline"><p>Ausgleich</p></div>
+                <div class="blog-item__subhead"><p>Nur lernen funktioniert nicht!</p></div>
+                <div class="blog-item__text">
+                  <div class="blog-item__text--upper"><p>Südbaden liegt super,</p></div>
+                  <div class="blog-item__text--lower"><p>für welches Hobby entscheidet man sich?</p></div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__layout">
+        <div class="footer__intro">
+          <div class="footer__intro-quote">
+            <p>"Forschung betreibe ich dann, wenn ich nicht weiß, was ich tue.”</p>
+          </div>
+          <div class="footer__intro-author"><p>Wernher von Braun</p></div>
+        </div>
+        <div class="footer__name"><p>Niklas Schwabauer</p></div>
+        <div class="footer__content">
+          <div class="footer__section">
+            <div class="footer__headline"><p>Links</p></div>
+            <ul class="footer__menu">
+              <li class="footer__menu-link"><a href="index.html">Homepage</a></li>
+              <li class="footer__menu-link"><a href="projects.html">Projekte</a></li>
+              <li class="footer__menu-link"><a href="personal.html">Profil</a></li>
+              <li class="footer__menu-link"><a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer__section">
+            <div class="footer__headline"><p>Socials</p></div>
+            <ul class="footer__menu">
+              <li class="footer__menu-link"><a href="https://github.com/niklasschwabauer" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+              <li class="footer__menu-link"><a href="https://www.instagram.com/0815_niklas/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+              <li class="footer__menu-link"><a href="https://x.com/0815niklas_" target="_blank" rel="noopener noreferrer">X</a></li>
+              <li class="footer__menu-link"><a href="https://www.chess.com/member/0815Niklas" target="_blank" rel="noopener noreferrer">Chess.com</a></li>
+              <li class="footer__menu-link"><a href="https://www.youtube.com/@0815niklas" target="_blank" rel="noopener noreferrer">Youtube</a></li>
+            </ul>
+          </div>
+          <div class="footer__section">
+            <div class="footer__headline"><p>Newsletter</p></div>
+            <ul class="footer__menu">
+              <li class="footer__menu-link"><a href="#">Jetzt anmelden!</a></li>
+            </ul>
+          </div>
+          <div class="footer__section">
+            <div class="footer__headline"><p>Kontakt</p></div>
+            <ul class="footer__menu">
+              <li class="footer__menu-link"><a href="mailto:niklasschwabauer@gmail.com">Email</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
