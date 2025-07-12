@@ -388,4 +388,9 @@
     grid-template-columns: 1fr;
      gap: 32px;
   }
+
+  .quote {
+    flex-direction: column;
+    gap: 16px;
+  }
 }
