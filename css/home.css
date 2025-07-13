@@ -74,30 +74,12 @@
 .quote__author {
   font-family: "Anonymous Pro", Arial, sans-serif;
 }
-.skill__item--robotomono {
-  font-family: "Roboto Mono", Arial, sans-serif;
-}
 .skill__item--caveat {
   font-family: "Caveat", Arial, sans-serif;
   font-size: 1.2em;  /*24px: 20 x 1 x 1.2*/
 }
-.skill__item--crimson {
-  font-family: "Crimson Text", Arial, sans-serif;
-}
 .skill__item--cascadia {
   font-family: "Cascadia Code", Arial, sans-serif;
-}
-.skill__item--ibm {
-  font-family: "IBM Plex Mono", Arial, sans-serif;
-}
-.skill__item--cascadiamono {
-  font-family: "Cascadia Mono", Arial, sans-serif;
-}
-.skill__item--inter {
-  font-family: "Inter", Arial, sans-serif;
-}
-.skill__item--serif4 {
-  font-family: "Source Serif 4", Arial, sans-serif;
 }
 
 /*grid*/
