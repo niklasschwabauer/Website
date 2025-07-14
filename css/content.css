@@ -79,14 +79,14 @@
 .chapter {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 0.6em;
 
   font-size: 1em;  /*20px: 20 x 1*/
 
   max-width: 41em;   /*820px: 20 x 41*/
 }
 .chapter__headline {
-  font-size: 1.8em;  /*36px: 20 x 1.8*/
+  font-size: 1.5em;  /*36px: 20 x 1.8*/ /*Updated*/
   font-weight: 600;
 }
 .chapter__container {
@@ -94,12 +94,12 @@
   flex-direction: column;
   gap: 8px;
 
-  padding: 8px 0 0 0;
+  padding: 0;
 }
 .chapter__subhead p:not(:first-child),
 .chapter__container-text p:not(:first-child),
 .hero__paragraph p:not(:first-child) {
-  margin: 20px 0 0 0;
+  margin: 0.8em 0 0 0;
 }
 .chapter__container-headline {
   font-size: 1.2em;  /*24px: 20 x 1.2*/
