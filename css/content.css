@@ -97,7 +97,7 @@
   padding: 0;
 }
 .chapter__subchapter {
-  margin: 8px 0 0 0;
+  padding: 8px 0 0 0;
 }
 .chapter__subhead p:not(:first-child),
 .chapter__container-text p:not(:first-child),
