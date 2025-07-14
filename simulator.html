@@ -143,7 +143,7 @@
             Der Schwerpunkt des Projekts lag auf einem möglichst modularen, 
             vollständig selbst herstellbaren Aufbau &ndash; insbesondere im Bereich der Mechanik und Sensorik.</p>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>2.1 Grundkonzept des Lenkmechanismus</p></div>
           <div class="chapter__container-text">
             <p>Zentrales Element ist die rotierende Lenkwelle, die über zwei gegenüberliegend gespannte, spiralförmige PLA-Torsionsfedern gegen ihre Drehrichtung arbeitet. 
@@ -151,7 +151,7 @@
               Die Verbindung zur Sensorik erfolgt über eine per Zahnrad übersetzte Nebenwelle, auf der die Encoderscheiben montiert sind.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>2.2 Sensorik und Signalauswertung</p></div>
           <div class="chapter__container-text">
             <p>Zur Erfassung der Rotationsbewegung kommt ein selbstentwickeltes optisches Encodersystem zum Einsatz. 
@@ -160,7 +160,7 @@
               &ndash; ein Aspekt, der im weiteren Verlauf noch vertieft wird.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>2.3 Kommunikation mit dem PC</p></div>
           <div class="chapter__container-text">
             <p>Die Verarbeitung der analogen Signale erfolgt auf einem Mikrocontroller (ESP8266), der sie per Bluetooth an den PC überträgt. 
@@ -169,7 +169,7 @@
               wenngleich bestimmte Grenzen bestehen &ndash; etwa in Bezug auf Reaktionsgeschwindigkeit und Präzision.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>2.4 Technische Herausforderungen und Grenzen</p></div>
           <div class="chapter__container-text">
             <p>Schon während des Aufbaus wurde deutlich, dass das System seine Grenzen nicht im mechanischen Aufbau, sondern in der Datenverarbeitung erreicht: 
@@ -194,7 +194,7 @@
             Alle mechanischen Komponenten des Projekts wurden entweder selbst entwickelt oder mit dem 3D-Drucker hergestellt. Im Zentrum steht dabei die Lenkwelle als tragendes Bauteil, 
             auf das alle weiteren Funktionen aufbauen: Kraftübertragung, Drehmomentmessung, Lagerung und Signalübertragung.</p>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>3.1 Die Lenkwelle: Mehr als nur ein Träger</p></div>
           <div class="chapter__container-text">
             <p>Zentrales Element ist die rotierende Lenkwelle, die über zwei gegenüberliegend gespannte, spiralförmige PLA-Torsionsfedern gegen ihre Drehrichtung arbeitet. 
@@ -202,7 +202,7 @@
               Die Verbindung zur Sensorik erfolgt über eine per Zahnrad übersetzte Nebenwelle, auf der die Encoderscheiben montiert sind.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>3.2 Zahnräder: Kraftübertragung mit Übersetzung</p></div>
           <div class="chapter__container-text">
             <p>Die eigentliche Drehbewegung wird über zwei 3D-gedruckte Zahnräder übertragen: 
@@ -214,7 +214,7 @@
               muss der Lichtspalt möglichst eng geführt werden &ndash; was unweigerlich zu leichtem Schleifkontakt führt.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>3.3 Stromübertragung über Schleifkontakte</p></div>
           <div class="chapter__container-text">
             <p>Um Tasten auf dem Lenkrad abfragen zu können, müssen Signale von der rotierenden Lenkwelle zum feststehenden Mikrocontroller übertragen werden. Die Lösung: Ein Schleifkontakt 
@@ -229,7 +229,7 @@
               Kurzzeitige Kontaktverluste werden durch die Trägheit des Tastendrucks überbrückt.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>3.4 Das Kugellager: Leichtlauf mit Airsoft-Kugeln</p></div>
           <div class="chapter__container-text">
             <p>Die Lagerung der Lenkwelle erfolgt über ein eigens entwickeltes 3D-gedrucktes Kugellager mit Airsoft-Kugeln als Wälzkörper. 
@@ -239,7 +239,7 @@
               Brüche oder Materialversagen wurden während des Tests nicht beobachtet.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>3.5 Die Torsionsfedern: Gedruckte Elastizität</p></div>
           <div class="chapter__container-text">
             <p>Die Rückstellkraft des Lenkrads wird durch spiralförmige PLA-Torsionsfedern erzeugt. Diese wurden parametrisch in Fusion 360 modelliert und umschließen die Lenkwelle formschlüssig. 
@@ -253,7 +253,7 @@
             <p>wobei M das Drehmoment, θ der Verdrehwinkel und k die Torsionsfederkonstante ist. Die Form der Feder bestimmt maßgeblich die Steifigkeit.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>3.6 Montage und Wartung</p></div>
           <div class="chapter__container-text">
             <p>Trotz des komplexen Aufbaus zeigten sich im Betrieb nur wenige Probleme. Lediglich das Gehäuse lockerte sich gelegentlich 
@@ -262,7 +262,7 @@
               &ndash; und dass 3D-Druck in Kombination mit handwerklicher Nacharbeit durchaus eine ernstzunehmende Option für funktionale Mechanik darstellt.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>3.7 Einordnung: Was war spannend &ndash; was aufwendig?</p></div>
           <div class="chapter__container-text">
             <p>Besonders spannend war das Experimentieren mit den Encoderscheiben: Zahlreiche Varianten wurden gedruckt und getestet, um eine möglichst präzise und dennoch robuste Auswertung zu ermöglichen. 
@@ -288,7 +288,7 @@
             &ndash; ganz im Sinne des Projekts &ndash; auf einen selbstgebauten, rein optisch funktionierenden Drehgeber. 
             Ein bewusster Schritt, der nicht nur technische Herausforderungen mit sich brachte, sondern auch eine Menge an Lerngelegenheiten bot.</p>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>4.1 Die Encoderscheiben &ndash; Lichttore aus PLA</p></div>
           <div class="chapter__container-text">
             <p>Kernstück des Systems sind zwei identische, selbst designte Encoderscheiben. Diese bestehen aus schwarzem PLA und setzen sich jeweils aus einem Innen- und Außenring zusammen. 
@@ -303,7 +303,7 @@
               aber aufgrund der vielen praktischen Einflüsse (Drehgeschwindigkeit, Latenzen, Toleranzen) realistischer umsetzbar war.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>4.2 Das Test-Rig &ndash; Prototyp für Lichtspiele</p></div>
           <div class="chapter__container-text">
             <p>Noch vor dem eigentlichen Simulator entstand ein kleines Test-Rig: eine einfache Kurbelkonstruktion mit montierter Scheibe und einem ersten Sensorhalter. 
@@ -311,7 +311,7 @@
               Dieses Mini-Projekt diente als wichtiger Machbarkeitsnachweis, bevor die Idee später in das eigentliche Lenksystem überführt wurde.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>4.3 Sensorik &ndash; Licht und Widerstand</p></div>
           <div class="chapter__container-text">
             <p>Jede Encoderscheibe wird mit einem Sensorpaar aus LED und Fotowiderstand abgetastet. Die LED sitzt auf der einen Seite der Scheibe, der Fotowiderstand exakt gegenüber. 
@@ -321,7 +321,7 @@
               Der Abstand zwischen LED, Scheibe und Sensor wurde bewusst minimal gewählt, um Streulicht oder LED-Helligkeitsschwankungen zu minimieren.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>4.4 Zwei Scheiben für die Drehrichtung</p></div>
           <div class="chapter__container-text">
             <p>Ein besonders cleverer Aspekt des Designs: Zur Erkennung der Drehrichtung werden zwei Encoderscheiben verwendet 
@@ -332,7 +332,7 @@
               &ndash; ideal für ein Prototypensystem, in dem Wiederverwendbarkeit und Klarheit im Vordergrund standen.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>4.5 Auswertung auf dem ESP8266</p></div>
           <div class="chapter__container-text">
             <p>Die Signale beider Fotowiderstände werden analog über den ADS1115 ausgelesen, einem hochauflösenden A/D-Wandler, der via I²C mit dem ESP8266 kommuniziert. 
@@ -345,7 +345,7 @@
               konstant genug durchdringen oder vollständig blockiert werden, was zu verrauschten, mittleren Signalwerten führte.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>4.6 Erkennung & Genauigkeit</p></div>
           <div class="chapter__container-text">
             <p>Die Drehrichtung ließ sich bei korrekt justierten Schwellenwerten und moderater Drehgeschwindigkeit zuverlässig erkennen. 
@@ -356,7 +356,7 @@
               &ndash; solange sich die Bewegung im realistischen Rahmen eines Rennspiels bewegte, funktionierte die Erkennung überzeugend.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>4.7 Softwareseitige Umsetzung und vJoy</p></div>
           <div class="chapter__container-text">
             <p>Die Auswertung erfolgte über ein Python-Skript, das die eingehenden Werte interpretierte. Die erste Encoderscheibe lieferte den Abtastimpuls: 
@@ -367,7 +367,7 @@
               die ich bewusst nicht installieren wollte aufgrund von potenziellen Anticheat-Problemen in anderen Spielen.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>4.8 Fazit &ndash; Funktion vs. Erfahrung</p></div>
           <div class="chapter__container-text">
             <p>
@@ -396,7 +396,7 @@
             Die Antwort: erstaunlich unspektakulär, aber absolut funktional &ndash; über Bluetooth. Ein simples HC-05-Modul übernimmt die Rolle des stillen Vermittlers zwischen Mikrocontroller und PC 
             &ndash; und leistet dabei mehr, als man auf den ersten Blick vermuten würde.</p>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>5.1 Warum eigentlich Bluetooth?</p></div>
           <div class="chapter__container-text">
             <p>Die Entscheidung, Bluetooth als Übertragungsweg zu nutzen, war keine reine Frage der Technik, sondern vielmehr das Ergebnis einer pragmatischen Abwägung. 
@@ -411,7 +411,7 @@
               Kurz gesagt: Bluetooth war nicht nur die einfache, sondern auch die sinnvolle Lösung.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>5.2 Die Hardware: Einfach, aber effektiv</p></div>
           <div class="chapter__container-text">
             <p>Der HC-05 wurde direkt an den ESP8266 angeschlossen &ndash; ohne zusätzliche Spannungsquelle, direkt über RX/TX. Trotz vieler Internetbeiträge, 
@@ -422,7 +422,7 @@
               Einfach, clever, zuverlässig.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>5.3 Die Software auf dem ESP: AD-Wandlung, Schmitt-Trigger, Encoder-Logik</p></div>
           <div class="chapter__container-text">
             <p>Auf dem ESP8266 läuft ein Arduino-Sketch, der mit dem I²C-basierten ADS1115-Wandler vier analoge Eingänge ausliest. 
@@ -442,7 +442,7 @@
             </p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>5.4 Die Empfängerseite: vJoy als Gamecontroller-Emulator</p></div>
           <div class="chapter__container-text">
             <p>Auf dem PC lauscht ein kleines Python-Skript der seriellen Verbindung. Sobald der HC-05 vom Betriebssystem erkannt und einem COM-Port zugewiesen wurde 
@@ -461,7 +461,7 @@
             </p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>5.5 Robustheit, Geschwindigkeit, Alltagstauglichkeit</p></div>
           <div class="chapter__container-text">
             <p>Die Verbindung ist überraschend stabil &ndash; auch wenn sie im Vergleich zu professionellen Controllern wie einem Xbox Wireless Pad beim Verbindungsaufbau etwas träge wirkt. 
@@ -472,7 +472,7 @@
               &ndash; sondern ein funktionierendes, verstehbares System, das zeigt, wie man vom elektrischen Signal zur Spielsteuerung gelangt.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>5.6 Reflexion: Besser geht&rsquo;s (fast) nicht</p></div>
           <div class="chapter__container-text">
             <p>Rückblickend war die Entscheidung für Bluetooth genau richtig. Es war schnell verfügbar, einfach integrierbar und erfüllte seinen Zweck zu 100 %. 
@@ -481,7 +481,7 @@
               &ndash; aber nötig ist das alles nicht. Das System funktioniert. Punkt.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>5.7 Exkurs: Schmitt-Trigger, ADS1115, vJoy &ndash; ein kurzer Technikblick</p></div>
           <div class="chapter__container-text">
             <p>Schmitt-Trigger:
@@ -511,7 +511,7 @@
             der letzte Code geschrieben und die letzte Schraube angezogen wurde. In diesem Kapitel geht es nicht darum, den Simulator an käufliche Fertigprodukte zu messen. 
             Es geht um Eigenleistung, um Ideen, und darum, was sich daraus entwickelt &ndash; technisch wie gedanklich.</p>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>6.1 Lieblingsbaustellen und elegante Lösungen</p></div>
           <div class="chapter__container-text">
             <p>Manche Bauteile sind nicht nur funktional, sondern machen einfach Freude &ndash; sei es beim Konstruieren, beim Zusammenbauen oder im Ergebnis. 
@@ -525,7 +525,7 @@
               Aber als Gesamtkonstruktion überzeugt der Aufbau durch ein durchdachtes Zusammenspiel aller Teile.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>6.2 Pläne, die nicht realisiert wurden &ndash; und warum das okay ist</p></div>
           <div class="chapter__container-text">
             <p>Nicht jeder Gedanke, der während des Bauprozesses entsteht, muss auch zu einem vollendeten Ergebnis führen. Ursprünglich war angedacht, den Simulator modularer aufzubauen 
@@ -536,7 +536,7 @@
               war über den gesamten Zeitraum präsent &ndash; ein wertvoller Motor für das Durchhalten</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>6.3 Was ich gelernt habe</p></div>
           <div class="chapter__container-text">
             <p>Das Projekt war vor allem eines: eine technische Lernreise. Ich konnte mein Wissen in verschiedenen Bereichen deutlich erweitern 
@@ -552,7 +552,7 @@
               Selbst das Arbeiten mit der Kommandozeile, das mir anfangs eher fremd erschien, wurde mit der Zeit zur Selbstverständlichkeit.</p>
           </div>
         </div>
-        <div class="chapter__container">
+        <div class="chapter__container chapter__subchapter">
           <div class="chapter__container-headline"><p>6.4 Ideen, die bleiben &ndash; auch wenn das Projekt abgeschlossen ist</p></div>
           <div class="chapter__container-text">
             <p>Der Simulator wird aktuell nicht aktiv verwendet. Zwar ist er funktional, allerdings wären gezielte Verbesserungen an der Encodertechnik nötig, um ihn dauerhaft in Spielen wie Forza Horizon einzusetzen. 
