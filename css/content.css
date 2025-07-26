@@ -73,6 +73,7 @@
   width: 100%;
   max-width: 600px;
   height: auto;
+  max-height: 85svh;
   object-fit: contain;
 }
 
