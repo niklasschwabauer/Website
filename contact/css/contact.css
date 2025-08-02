@@ -8,6 +8,12 @@
   width: 100%;
   font-size: 1.2em;  /*24px: 20 x 1.2*/
 }
+.contact a:hover {
+  text-decoration: underline;
+}
+.contact a:active {
+  font-weight: 700;
+}
 .contact__text {
   display: flex;
   flex-direction: column;
