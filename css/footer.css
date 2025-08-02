@@ -7,6 +7,12 @@
   left: 0;
   right: 0;
 }
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer a:active {
+  font-weight: 700;
+}
 .footer__layout {
   width: 100%;
   max-width: 1248px; 
