@@ -262,3 +262,34 @@
     text-align: center;
   }
 }
+
+.page-meta {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.page-meta__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.page-meta__container span {
+  white-space: nowrap;
+  padding: 0 8px;
+}
+
+.page-meta__container span:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+@media (max-width: 412px) {
+  .page-meta__container span {
+    border-right: none !important;
+    display: block;
+    text-align: center;
+    padding: 4px 0;
+  }
+}
