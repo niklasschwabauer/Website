@@ -47,6 +47,12 @@
 
   padding: 24px 0 0 0;
 }
+.hero__table a:hover {
+  text-decoration: underline;
+}
+.hero__table a:active {
+  font-weight: 700;
+}
 .hero__table-headline {
   font-size: 1.333em;  /*32px: 20 x 1.2 x 1.333*/
   font-weight: 500;
