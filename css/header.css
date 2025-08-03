@@ -67,4 +67,7 @@
   .header__submenu {
     gap: 16px;
   }
+  .header__submenu-item:last-child {
+    display: none;
+  }
 }
