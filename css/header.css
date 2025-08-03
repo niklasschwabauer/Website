@@ -13,6 +13,12 @@
 
   padding: 0 16px;
 }
+.header a:hover {
+  text-decoration: underline;
+}
+.header a:active {
+  font-weight: 700;
+}
 
 .header__nav {
   height: 76px;
