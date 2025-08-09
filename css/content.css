@@ -125,9 +125,16 @@
 
     padding: 0;
   }
+  .hero__content {
+    width: 100%;
+  }
   .hero__headline,
   .hero__text {
     text-align: center;
+  }
+
+  .hero__table {
+    padding: 64px 0 0 0;  /*general: 24px*/
   }
 
   .hero__image {
