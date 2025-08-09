@@ -141,6 +141,7 @@
   }
   .hero__table {
     align-self: center;
+    width: 100%;
   }
 
   .chapter {
